@@ -85,7 +85,7 @@
   align-items: center;
 }
 
-.title {
+.description {
   margin: 150px 0 125px;
   color: #D4C17F;
   text-align: center;
@@ -131,4 +131,49 @@
 
 .links__contact:not(:last-child) {
   margin-right: 100px;
+}
+
+.testimonials {
+  height: 420px;
+  width: 100%;
+  position: absolute;
+  background: #242B33;
+
+}
+
+.advantage {
+  display: flex;
+  width: 794px;
+  margin: 120px auto;
+  justify-content: space-between;
+}
+
+.advantage__position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantage__img {
+  margin-bottom: 53px;
+}
+
+.advantage__description-item {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: center;
+  font-family: Roboto, serif;
+}
+
+.testimonials__number {
+  top: -20px;
+  right: 41px;
+  opacity: 0.02;
+  color: #FFFFFF;
+  font-size: 400px;
+  font-weight: bold;
+  position: absolute;
+  font-family: 'Playfair Display' , serif;
 }
