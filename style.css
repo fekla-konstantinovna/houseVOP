@@ -14,7 +14,13 @@
 *::before {
   box-sizing: border-box;
 }
-
+.number {
+  opacity: 0.02;
+  color: #FFFFFF;
+  font-size: 400px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
 /* Основной конейтенер для контента */
 
 .container {
@@ -135,6 +141,7 @@
 
 .testimonials {
   width: 100%;
+  position: relative;
   background: #242B33;
 
 }
@@ -171,12 +178,61 @@
 
 .testimonials__number {
   top: -20px;
-  right: 41px;
-  opacity: 0.02;
-  color: #FFFFFF;
-  font-size: 400px;
-  font-weight: bold;
   position: absolute;
-  font-family: 'Playfair Display' , serif;
+  left: calc(50% + 539px);
+  transform: translate(-50%, 0);
+}
+
+.apartments {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #242B33;
+}
+
+.caption {
+  color: #D4C17F;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 48px;
+  margin: 0 0 100px;
+  font-family: 'Playfair Display', serif;
+}
+
+.loft {
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+}
+
+.loft__position {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+  width: calc(50% - 15px);
+}
+
+.loft__img {
+  width: 100%;
+}
+
+.loft__description {
+  left: 50px;
+  width: 100%;
+  bottom: 50px;
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 28px;
+  position: absolute;
+  font-family: Raleway, serif;
+}
+
+.apartments__number{
+  top: -20px;
+  position: absolute;
+  left: calc(50% - 555px);
+  transform: translate(-50%, 0);
 }
 
