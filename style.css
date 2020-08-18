@@ -134,18 +134,20 @@
 }
 
 .testimonials {
-  height: 420px;
   width: 100%;
-  position: absolute;
   background: #242B33;
 
 }
 
 .advantage {
   display: flex;
-  width: 794px;
-  margin: 120px auto;
+  max-width: 794px;
+  padding: 120px 0;
   justify-content: space-between;
+}
+
+.testimonials__advantage {
+  margin: 0 auto;
 }
 
 .advantage__position {
@@ -177,3 +179,4 @@
   position: absolute;
   font-family: 'Playfair Display' , serif;
 }
+
